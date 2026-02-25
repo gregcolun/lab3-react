@@ -1,0 +1,157 @@
+.page {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.top {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.contactGrid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.contactCard {
+  border-radius: 1rem;
+  border: 1px solid rgba(145, 174, 198, 0.24);
+  background: rgba(5, 12, 18, 0.55);
+  padding: 0.9rem;
+}
+
+.label {
+  margin: 0;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(183, 201, 217, 0.95);
+}
+
+.value {
+  margin: 0.4rem 0 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 0.85rem;
+}
+
+.form,
+.scheduleBox {
+  border-radius: 1rem;
+  border: 1px solid rgba(142, 168, 191, 0.25);
+  background: rgba(6, 14, 21, 0.62);
+  padding: 1rem;
+}
+
+.form h2 {
+  margin: 0 0 0.8rem;
+  font-family: "Syne", sans-serif;
+}
+
+.form label {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 0.8rem;
+  color: rgba(210, 225, 238, 0.96);
+  font-size: 0.92rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  border: 1px solid rgba(145, 170, 196, 0.35);
+  border-radius: 0.65rem;
+  background: rgba(8, 18, 27, 0.88);
+  color: #eff7ff;
+  padding: 0.7rem;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: 2px solid rgba(43, 232, 198, 0.65);
+  outline-offset: 1px;
+}
+
+.success {
+  margin: 0.7rem 0 0;
+  color: #78f3d6;
+  font-size: 0.9rem;
+}
+
+.infoSide {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.scheduleBox h3 {
+  margin: 0 0 0.75rem;
+  font-family: "Syne", sans-serif;
+}
+
+.scheduleBox ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.scheduleBox li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  color: rgba(218, 231, 243, 0.95);
+}
+
+.scheduleBox a {
+  color: #ffd2ae;
+  text-decoration: none;
+}
+
+.scheduleBox a:hover {
+  text-decoration: underline;
+}
+
+.faq {
+  display: grid;
+  gap: 1rem;
+}
+
+.faqList {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.faqItem {
+  border-radius: 0.9rem;
+  border: 1px solid rgba(140, 170, 193, 0.26);
+  background: rgba(7, 16, 25, 0.58);
+  padding: 0.8rem 0.85rem;
+}
+
+.faqItem summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.faqItem p {
+  margin: 0.65rem 0 0;
+  color: rgba(207, 223, 237, 0.95);
+  line-height: 1.45;
+}
+
+@media (max-width: 1024px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+}

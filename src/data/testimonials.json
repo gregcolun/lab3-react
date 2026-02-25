@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t1",
+    "name": "Ioana M.",
+    "role": "Product Designer",
+    "quote": "UrbanPulse is the first place where my routine stayed consistent for months. The coaching style is direct and practical."
+  },
+  {
+    "id": "t2",
+    "name": "Stefan C.",
+    "role": "Software Engineer",
+    "quote": "Class quality is high and scheduling is easy. I can train before work or late evening without losing momentum."
+  },
+  {
+    "id": "t3",
+    "name": "Madalina T.",
+    "role": "Medical Resident",
+    "quote": "The Mobility Reset sessions fixed my back discomfort in a few weeks. I now train stronger and recover better."
+  }
+]

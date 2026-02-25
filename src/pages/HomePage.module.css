@@ -1,0 +1,88 @@
+.page {
+  display: grid;
+  gap: 3.8rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.4rem;
+  border: 1px solid rgba(140, 166, 191, 0.25);
+  background: linear-gradient(130deg, rgba(7, 21, 32, 0.82) 0%, rgba(6, 13, 19, 0.75) 52%, rgba(20, 39, 54, 0.8) 100%);
+  padding: clamp(1.2rem, 2.4vw, 2.2rem);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 18rem;
+  aspect-ratio: 1;
+  right: -4rem;
+  top: -4rem;
+  background: radial-gradient(circle, rgba(255, 128, 46, 0.7) 0%, transparent 66%);
+  pointer-events: none;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.6rem;
+}
+
+.metrics {
+  margin-top: 1.7rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.metricItem {
+  border-radius: 1rem;
+  border: 1px solid rgba(160, 187, 211, 0.25);
+  padding: 0.85rem;
+  background: rgba(5, 13, 20, 0.48);
+}
+
+.metricValue {
+  margin: 0;
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.35rem, 1.1vw + 1rem, 2rem);
+}
+
+.metricLabel {
+  margin: 0.3rem 0 0;
+  color: rgba(200, 216, 230, 0.94);
+  font-size: 0.9rem;
+}
+
+.section {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.cardsGrid {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 1024px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    gap: 2.6rem;
+  }
+
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}

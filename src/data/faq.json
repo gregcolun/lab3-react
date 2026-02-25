@@ -1,0 +1,22 @@
+[
+  {
+    "id": "f1",
+    "question": "Do I need prior fitness experience?",
+    "answer": "No. Every class has progressions and regressions so beginners and advanced members can train together."
+  },
+  {
+    "id": "f2",
+    "question": "Can I pause my membership?",
+    "answer": "Yes. Membership can be frozen for up to 30 days every quarter directly from reception."
+  },
+  {
+    "id": "f3",
+    "question": "What should I bring to my first session?",
+    "answer": "Bring sports shoes, a bottle of water, and comfortable training clothes. Towels are available at the studio."
+  },
+  {
+    "id": "f4",
+    "question": "Do you offer corporate plans?",
+    "answer": "Yes. We offer team packages for companies with flexible attendance and dedicated onboarding classes."
+  }
+]

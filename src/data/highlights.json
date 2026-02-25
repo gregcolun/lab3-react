@@ -1,0 +1,29 @@
+[
+  {
+    "id": "studio-experience",
+    "eyebrow": "Built for city rhythm",
+    "title": "Immersive training pods",
+    "description": "Each room blends directional lighting and adaptive sound to keep focus high from warm-up to cooldown.",
+    "meta": "Daily access from 06:30 to 22:00",
+    "tags": ["mobility", "strength", "recovery"],
+    "tone": "aurora"
+  },
+  {
+    "id": "progress-tracking",
+    "eyebrow": "Measure what matters",
+    "title": "Weekly progress snapshots",
+    "description": "Simple dashboards make it easy to track consistency, effort, and class intensity without overcomplication.",
+    "meta": "Data updates after every class",
+    "tags": ["analytics", "goals", "consistency"],
+    "tone": "ember"
+  },
+  {
+    "id": "community",
+    "eyebrow": "People first",
+    "title": "Small groups, real coaching",
+    "description": "Sessions are capped to keep coaching personal, with clear adaptations for every level in the same class.",
+    "meta": "Maximum 14 members per class",
+    "tags": ["community", "coaching", "support"],
+    "tone": "ocean"
+  }
+]

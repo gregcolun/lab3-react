@@ -1,0 +1,15 @@
+{
+  "email": "hello@urbanpulse.studio",
+  "phone": "+40 721 000 111",
+  "location": "Str. Atelier 12, Cluj-Napoca",
+  "schedule": [
+    { "day": "Mon-Fri", "hours": "06:30 - 22:00" },
+    { "day": "Saturday", "hours": "08:00 - 20:00" },
+    { "day": "Sunday", "hours": "09:00 - 18:00" }
+  ],
+  "social": [
+    { "label": "Instagram", "url": "https://instagram.com" },
+    { "label": "TikTok", "url": "https://tiktok.com" },
+    { "label": "LinkedIn", "url": "https://linkedin.com" }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "flow-strength",
+    "name": "Flow Strength",
+    "level": "Beginner to Intermediate",
+    "description": "Controlled tempo strength training with mobility transitions for full-body resilience.",
+    "duration": "55 min",
+    "schedule": "Mon, Wed, Fri - 18:30",
+    "coach": "Coach Mara"
+  },
+  {
+    "id": "pulse-hiit",
+    "name": "Pulse HIIT",
+    "level": "Intermediate",
+    "description": "Interval circuits built for conditioning, speed, and metabolic endurance.",
+    "duration": "45 min",
+    "schedule": "Tue, Thu - 07:00",
+    "coach": "Coach Victor"
+  },
+  {
+    "id": "core-lab",
+    "name": "Core Lab",
+    "level": "All levels",
+    "description": "Core and posture sessions designed to improve stability and movement efficiency.",
+    "duration": "40 min",
+    "schedule": "Daily - 12:30",
+    "coach": "Coach Bianca"
+  },
+  {
+    "id": "mobility-reset",
+    "name": "Mobility Reset",
+    "level": "All levels",
+    "description": "Low impact flexibility and release class for recovery-focused training blocks.",
+    "duration": "50 min",
+    "schedule": "Mon to Fri - 20:00",
+    "coach": "Coach David"
+  },
+  {
+    "id": "urban-box",
+    "name": "Urban Box",
+    "level": "Intermediate to Advanced",
+    "description": "Striking mechanics, footwork drills, and high-energy conditioning rounds.",
+    "duration": "60 min",
+    "schedule": "Tue, Thu - 19:30",
+    "coach": "Coach Radu"
+  },
+  {
+    "id": "saturday-engine",
+    "name": "Saturday Engine",
+    "level": "All levels",
+    "description": "Weekend team format that combines cardio, bodyweight strength, and mobility.",
+    "duration": "75 min",
+    "schedule": "Saturday - 10:00",
+    "coach": "Coach Ana"
+  }
+]
